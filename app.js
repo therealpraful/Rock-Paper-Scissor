@@ -65,7 +65,7 @@ draw = (userChoice , computerChoice) => {
 game = (userChoice) => {
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice){
-        case "rp":
+        case "rs":
         case "pr":
         case "sp":
             win(userChoice , computerChoice);
